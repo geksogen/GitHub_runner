@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  runner:
+    build: .
+    environment:
+      - ORGANIZATION=https://github.com/geksogen/learn_git
+      - ACCESS_TOKEN=AAL2ODPBAZVMI7Y4EZ4NKRTB5FFRC
